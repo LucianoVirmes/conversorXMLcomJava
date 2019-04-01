@@ -16,7 +16,7 @@ public class Endereco {
 	public Endereco() {
 
 	}
-
+	
 	public Endereco(Cidade cidade) {
 		super();
 		this.cidade = cidade;
