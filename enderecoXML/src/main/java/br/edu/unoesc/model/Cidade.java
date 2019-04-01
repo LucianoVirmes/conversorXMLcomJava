@@ -5,7 +5,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class Cidade {
-	@XmlElement
+	@XmlElement(name = "nome", required= true)
 	private String nome;
 	@XmlElement
 	private UF uf;
